@@ -1,8 +1,12 @@
 import java.util.Scanner;  // Import the Scanner class
 
 public class Main {
-    public static void main(String[] args) {
+    //    Method
+    static void myMethod() {
+        System.out.println("I just got executed!");
+    }
 
+    public static void main(String[] args) {
         Scanner myObj = new Scanner(System.in);  // Create a Scanner object
         String firstName;
 
@@ -11,5 +15,7 @@ public class Main {
 
         System.out.printf("Hello " + firstName + " and welcome!\n" +
                 "This is just a brief intro to describe the start of this project!\n");
+        myMethod();
         }
+
 }
