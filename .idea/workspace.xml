@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="449b8fdd-6d16-4578-8296-3f74d6007c97" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/demo1/analyseMark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vehicleOffences/vehicleRoadworthiness.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +48,9 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.analyseMark.executor": "Run",
+    "Application.vehicleRoadworthiness.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feature-IS2",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -64,7 +64,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.analyseMark">
+  <component name="RunManager" selected="Application.vehicleRoadworthiness">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Learn-Java-With-Assignment" />
@@ -85,8 +85,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="vehicleRoadworthiness" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vehicleOffences.vehicleRoadworthiness" />
+      <module name="Learn-Java-With-Assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vehicleOffences.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.vehicleRoadworthiness" />
         <item itemvalue="Application.analyseMark" />
         <item itemvalue="Application.Main" />
       </list>
@@ -108,7 +122,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728323911830</updated>
-      <workItem from="1728323912688" duration="12208000" />
+      <workItem from="1728323912688" duration="18180000" />
     </task>
     <servers />
   </component>
