@@ -73,5 +73,7 @@ public class vehicleRoadworthiness {
             default:
                 System.out.println("Invalid option selected.");
         }
+
+        input.close();
     }
 }
